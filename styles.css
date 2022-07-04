@@ -1,0 +1,127 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Press Start 2P';
+    border: 1px solid #222222;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    padding: 10px 10px 0;
+    border: 2px dotted #222222;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.2px white;
+	-webkit-text-fill-color: black;
+}
+
+span {
+    display: inline-block;
+    width: 4px;
+}
+
+.card {
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #222222;
+    border-left: 10px solid #FCBDA0;
+    border-bottom: 10px solid #F5EEEA;
+    border-top: 10px solid #F5EEEA;
+    border-right: 10px solid #FCBDA0;
+    background-image: radial-gradient(#222222 0.5px, #8B98AA 0.5px);
+    background-size: 10px 10px;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+pixel {
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: animatedBackground 5s linear infinite;
+    -moz-animation: animatedBackground 5s linear infinite;
+    -webkit-animation: animatedBackground 5s linear infinite;
+    -ms-animation: animatedBackground 5s linear infinite;
+    -o-animation: animatedBackground 5s linear infinite;
+}
+
+/* Animation rainbow background */
+@keyframes animatedBackground {
+    0% { background-position: 0; }
+    100% { background-position: 500px; }
+}
+@-moz-keyframes animatedBackground {
+    0% { background-position: 0; }
+    100% { background-position: 500px; }
+}
+@-webkit-keyframes animatedBackground {
+    0% { background-position: 0; }
+    100% { background-position: 500px; }
+}
+@-ms-keyframes animatedBackground {
+    0% { background-position: 0; }
+    100% { background-position: 500px; }
+}
+@-o-keyframes animatedBackground {
+    0% { background-position: 0; }
+    100% { background-position: 500px; }
+}
+
+/* Y scroll animation */
+@keyframes scrolling {
+	0% {transform: translateY(-150%)}
+	100% {transform: translateY(100%)}
+}
+@-moz-keyframes scrolling {
+	0% {transform: translateY(-150%)}
+	100% {transform: translateY(100%)}
+}
+@-webkit-keyframes scrolling {
+	0% {transform: translateY(-150%)}
+	100% {transform: translateY(100%)}
+}
+@-ms-keyframes scrolling {
+	0% {transform: translateY(-150%)}
+	100% {transform: translateY(100%)}
+}
+@-o-keyframes scrolling {
+	0% {transform: translateY(-150%)}
+	100% {transform: translateY(100%)}
+} 
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
